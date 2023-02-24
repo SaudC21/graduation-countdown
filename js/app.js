@@ -13,7 +13,7 @@
 
          (document.getElementById("days").innerText = Math.floor(distance / day)),
             (document.getElementById("hours").innerText = Math.floor(
-               (distance % day) / hour
+               ((distance % day) / hour) + 12
             )),
             (document.getElementById("minutes").innerText = Math.floor(
                (distance % hour) / minute
